@@ -39,6 +39,20 @@ $ gem install jekyll-bulma-light
 - `post`: Page appropriate for blog posts.
 - `docs`: Documentation-type page.
 
+### Custom Colors
+
+Create a new file in `assets/css` named `theme.scss`.  Then, copy/paste this
+into it.  Then change any variables you want where it says `HERE`.
+
+```scss
+---
+---
+
+// HERE
+
+@import "main"
+```
+
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
